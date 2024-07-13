@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "../layui/dist/css/layui.css">
+        <script src = "../layui/dist/layui.js"></script>
+        <script>
+            MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            },
+            options: {
+                enableMenu : false
+            }
+            };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async 
+            src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    </head>
+    <body>
+        <ul class="layui-nav layui-bg-gray">
+            <li class="layui-nav-item"><a href=""> Ask Question </a></li>
+            <li class="layui-nav-item"><a href=""> discuss </a></li>
+            <li class="layui-nav-item"><a href=""> hot </a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;"> more </a>
+                <dl class="layui-nav-child">
+                    <dd><a href=""> 11 </a></dd>
+                    <dd><a href=""> $114514$ </a></dd>
+                    <dd><a href="">about</a></dd>
+                </dl>
+            </li>
+            <li class="layui-layout-right layui-nav-item" style="padding-right:1%;">User</li>
+        </ul>
+        <div class = "layui-panel" style = "margin : 2% ; padding : 2% ; font-color : black ;">
+            <h1> 问 </h1>
+        </div>
+        <div class = "layui-panel" style = "margin : 2% ; padding : 2% ; font-color : black ;">
+            <p> 只需在 $O(\log n)$ 的时间内维护字树信息即可。
+                $$\sum_{i = 1}^{n} a_i$$
+                $O(n) \times O(\log n) = O(n \log n)$
+            </p>
+        </div>
+    </body>
+</html>
